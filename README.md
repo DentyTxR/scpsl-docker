@@ -16,7 +16,7 @@ A [Docker](https://www.docker.com/) image to run a dedicated server for [SCP: Se
 An example sequence could be:
 
 ```bash
-docker build -t scpsl https://github.com/FragSoc/scpsl-docker.git && \
+docker build -t scpsl https://github.com/DentyTxR/scpsl-docker.git && \
     docker run -d -p 7777:7777/udp -v $PWD/scpsl_config:/config scpsl
 ```
 
