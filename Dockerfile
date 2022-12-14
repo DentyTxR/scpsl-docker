@@ -14,7 +14,7 @@ RUN mkdir -p /scpserver && \
     steamcmd \
         +force_install_dir /scpserver \
         +login anonymous \
-        +app_update $APPID $STEAM_BETA validate \
+        +app_update 996560 -beta public-beta validate \
         +quit
 
 FROM mono AS runner
